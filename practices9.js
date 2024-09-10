@@ -4,11 +4,17 @@
 // }
 // greet();
 
-let nam="jumana";
-function displaygreeting(nam){
-    console.log("hello"+nam+"!");
-}
-  let result3=displaygreeting(nam);
+
+
+
+
+// let nam="jumana";
+// function displaygreeting(nam){
+//     console.log("hello"+nam+"!");
+// }
+//   let result3=displaygreeting(nam);
+
+
 
 
 
@@ -21,6 +27,9 @@ function displaygreeting(nam){
 //   console.log(result);
 
 
+
+
+
 // let x="jumana";
 // let y="hik";
 // function concatstrings(x,y){
@@ -29,6 +38,9 @@ function displaygreeting(nam){
 // }
 // let result1=concatstrings(x,y);
 // console.log(result1);
+
+
+
 
 
 // let r=2;
@@ -41,10 +53,21 @@ function displaygreeting(nam){
 // console.log(result2);
 
 
+
+
+
+
 // let min=4;
 // let max=5;
-// let random=Math.random()
-// console.log("random number:"+random);
+function getrandomnumber(){
+    let random=Math.random();
+    return "random number:"+random;
+}
+let res= getrandomnumber();
+console.log(res);
+
+
+
 
 
 
@@ -60,6 +83,11 @@ function displaygreeting(nam){
 // let total2=isadult(age);
 // console.log(total2);
 
+
+
+
+
+
 // let u=10;
 // function iseven(u){
 //   if(u%2===0){
@@ -71,6 +99,10 @@ function displaygreeting(nam){
 // }
 // let total3=iseven(u);
 // console.log(total3);
+
+
+
+
 
 // let g=5;
 // let h=5;
@@ -87,25 +119,7 @@ function displaygreeting(nam){
 // }
 // let total5=comparenumbers(g,h);
 // console.log(total5);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 // let temperature = 30;
@@ -116,11 +130,18 @@ function displaygreeting(nam){
 // }
 
 
+
+
+
 // let count = 1;
 // while (count <= 100) {
 //  console.log("Counting down: " + count);
 //  count = count + 1;
 // }
+
+
+
+
 
 // checkNumber(-5);
 // checkNumber(0);
@@ -136,6 +157,8 @@ function displaygreeting(nam){
 //     console.log("Zero");
 //   }
 // }
+
+
 
 
 // calculateArea();
