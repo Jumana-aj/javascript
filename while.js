@@ -51,3 +51,11 @@ do{
 
 }
 while(outfit<=total);
+
+let u=1;
+while (u<=20){
+    if(u%2===1){
+        console.log(u);
+    }
+    u++
+}
