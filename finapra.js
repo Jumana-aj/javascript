@@ -61,3 +61,6 @@ for(let el of arr){
     }
 }
 console.log(count);
+
+
+let 
