@@ -1,17 +1,17 @@
-//Given a number of 7 digits, print the sum of the digits of the number.
+// Given a number of 7 digits, print the sum of the digits of the number.
 
-// let num=1234567;
-// let digits=[];
-// let sum=0
-// while(num>0){
-//     let res=num%10;
-//     digits.unshift(res);
-//     num=Math.floor(num/10);
-// }
-// for(i=0;i<digits.length;i++){
-//  result=sum+=digits[i];
-// }
-// console.log(result);
+let num=1234567;
+let digits=[];
+let sum=0
+while(num>0){
+    let res=num%10;
+    digits.unshift(res);
+    num=Math.floor(num/10);
+}
+for(i=0;i<digits.length;i++){
+ result=sum+=digits[i];
+}
+console.log(result);
 
 
 
@@ -65,7 +65,7 @@
 
 
 
-//  let names=["ab","cd","ef","gh"];
-//  let r=names.length;
-//  let s=names.unshift(r);
-//  console.log(names);
+ let names=["ab","cd","ef","gh"];
+ let r=names.length;
+ let s=names.unshift(r);
+ console.log(names);

@@ -8,9 +8,9 @@
 
 
 
-// let names=["array","js","css"];
-// names[1]="modified";
-// console.log(names[1]);
+let names=["array","js","css"];
+names[1]="modified";
+console.log(names);
 
 
 
@@ -28,13 +28,13 @@
 
 
 
-// let num2=[1,2,3];
-// let sum=0;
-// for(i=0;i<num2.length;i++){
-//     sum=sum+num2[i];
+let num2=[1,2,3];
+let sum=0;
+for(i=0;i<num2.length;i++){
+    sum=sum+num2[i];
    
-// }
-// console.log(num2);
+}
+console.log(num2);
 
 
 

@@ -51,16 +51,24 @@
 //     }
 // }
 
-let arr=[2,11,6,7,9,25];
-let a=2;
-let b=25;
-let count=0;
-for(let el of arr){
-    if(el>a && b>el){
-       count++;
+// let arr=[2,11,6,7,9,25];
+// let a=2;
+// let b=25;
+// let count=0;
+// for(let el of arr){
+//     if(el>a && b>el){
+//        count++;
+//     }
+// }
+// console.log(count);
+
+
+let array=["a","b","b","c","d"];
+let count="b";
+for(i=0;i<array.length;i++){
+    if(array[i]=="b"){
+        count ++;
+        count=count+1;
     }
 }
 console.log(count);
-
-
-let 
