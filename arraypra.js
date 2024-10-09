@@ -66,3 +66,7 @@ function number(num){
 }
 let result=number(123);
 console.log(result);
+
+
+
+

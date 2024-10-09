@@ -64,11 +64,20 @@
 
 
 let array=["a","b","b","c","d"];
-let count="b";
+let count=0;
 for(i=0;i<array.length;i++){
     if(array[i]=="b"){
         count ++;
-        count=count+1;
+        
     }
 }
 console.log(count);
+
+let array1=[true, false, true];
+let array2=[false, true, true];
+result=[];
+
+for(let i=0;i<array1.length;i++){
+    result.push(array1[i]&&array2[i]);
+}
+console.log(result);
