@@ -1,0 +1,57 @@
+// function selectionsort(arr){
+//     let n=arr.length
+//     for(let i=1;i<n;i++){
+//         minindex=i
+//         for(let j=i+1;j<n;j++){
+//             if(arr[minindex]>arr[j]){
+//                 minindex=j
+//             }
+//         }
+//         if(minindex!==i){
+//            [ arr[minindex],arr[i]]=[arr[i],arr[minindex]]
+//         }
+//     }
+    
+//     return arr
+// }
+// console.log(selectionsort([1,3,2,4,53]))
+
+
+
+
+// function selectionsort2(array){
+//     let a = array.length;
+//     for(let i=0;i<a;i++){
+//         mindex=i
+//         for(let j=i+1;j<a;j++){
+//             if(array[mindex]>array[j]){
+//                 mindex=j
+//             }
+//         }
+//         if(mindex!==i){
+//             [array[mindex],array[i]]=[array[i],array[mindex]]
+//         }
+//     }
+//     return array
+// }
+// console.log(selectionsort2([23,65,89,76,12]))
+
+
+
+
+function selectionsort3(arr){
+    let a=arr.length;
+    for(i=0;i<a;i++){
+        minindex=i
+        for(j=i+1;j<a;j++){
+          if(arr[minindex]>arr[j]){
+            minidex=j
+          }
+        }
+        if(minindex!==i){
+            [arr[minindex],arr[i]]=[arr[i],arr[minindex]]
+        }
+    }
+    return arr
+}
+console.log(selectionsort3([43,23,54,12,46]))
