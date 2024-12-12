@@ -1,85 +1,83 @@
+function sumNumbers(n) {
+    let sum = 0;
+    let i = 0;
+    while (i < n) {
+      sum += i;
+      i++;
+    }
 
-//sum 1
-
-
-let arr = [5, 8, 13, 21];
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === 13) {
-    console.log("Found 13!");  // Loop continues even after finding 13
+    console.log(sum);
   }
+sumNumbers(5)
+
+
+
+
+function calculateGrade(score) {
+    if (score >= 90) {
+        console.log("Grade: A");
+    } else if (score <= 89) {
+        console.log("Grade: B");
+    } else if (score <= 79) {
+        console.log("Grade: C");
+    } else if (score >= 69) {
+        console.log("Grade: D");
+    } else {
+        console.log("Grade: F");
+    }
+}
+calculateGrade(70);
+
+
+
+
+
+
+
+
+let a = 5;
+let b = 10;
+let c = 3;
+
+if( a > b || a < c) {
+    console.log(a);
 }
 
-//sum2
+else if (b > a && b > c) {
+    console.log(b);
+}
+else {
+    console.log(c);
+}
 
 
 
-function findMax(arr) {
-    let max = 0; 
-    for (let i = 1; i < arr.length; i++) {
-      if (arr[i] > max) {
-        max = arr[i];
-      }
+
+function generateSeries(n) {
+    let str = "";
+    for (let i = 1; i <= n; i++) {
+        let term = i*i; 
+        str += term + " ";
     }
-    return max;
-  }
-let result=findMax([1,2,3,4,5,6,7,8]);
-console.log(result);
+    return str;
+}
+
+// Example usage
+let n = 5;
+let result = generateSeries(n);
+console.log(`The first ${n} terms of the series are: ${result}`);
 
 
 
 
-//sum3
-
-
-
-function findAlphabeticallyFirst(arr) {
-    if(arr.length===0) {
-        return "";
+function isMultipleOfSeven(N) {
+    if (N % 7 === 0) { 
+        console.log("No");
+    } else {
+        console.log("YES");
     }
-    let first = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-      if (arr[i] < first) {
-        first = arr[i];
-      }
-    }
-    return first;
-  }
-  let result2=findAlphabeticallyFirst(["ball","cat",,"dod"]);
-  console.log(result2);
+}
 
-
-
-  //sum4
-
-
-
-
-  function binarySearch(arr, target) {
-    let left = 0;
-    let right = arr.length - 1;
-    
-    while (left <= right) {  
-      let mid = Math.floor((left + right) / 2);
-      
-      if (arr[mid] === target) {
-        return mid;
-      } else if (arr[mid] > target) {
-       right = mid - 1;
-      } else {
-        left = mid + 1;
-      }
-     
-    }
-    return -1;  
-  
-  }
-
-  let result3=binarySearch([1,2,3,4,5,6],6);
-  console.log(result3);
-
-
-
-  //sum4
-
-
-
+// Example usage
+let N = 49;
+isMultipleOfSeven(N);
